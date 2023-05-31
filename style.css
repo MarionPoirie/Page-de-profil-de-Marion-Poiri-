@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap');
+
+body {
+  background: #bdffff;
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: #ffffffae;
+  width: 500px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(150, 150, 150, 0.3);
+  text-align: center;
+  padding: 30px;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px rgba(150, 150, 150, 0.3);
+  border: 2px dotted #b8b8ff;
+}
+
+h1 {
+  color: #000787;
+  font-size: 36px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h2 {
+  color: #000787;
+  font-size: 24px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+p{
+  color: #000000;
+  font-size:16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #453bff;
+  font-size:16px;
+  font-family: 'Montserrat', sans-serif;
+}
